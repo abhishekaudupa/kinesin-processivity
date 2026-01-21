@@ -1,1 +1,5 @@
-# kinesin-processivity
+# Simulation of Kinesin Processivity
+
+Kinesin is a processive molecular motor that transports cargo along microtubules through discrete, ATP-driven steps. In this work, we present a minimal chemo-mechanical model in which each kinesin head undergoes stochastic chemical state transitions while moving along a sloping periodic potential representing the microtubule lattice. The model reproduces essential features of kinesin hand-over-hand stepping, including ∼8 nm step sizes, occasional backward and inchworm steps, and power-stroke-like forward motion of the detached head driven by differential binding affinities. Inter-head interactions prevent overlap and excessive stretching, supporting processivity without enforcing explicit coordination. Simulation results at 1 mM ATP show mean velocities consistent with experimental observations (∼400 nm/s), demonstrating that directional motion can emerge from the interaction between a biased energy landscape and stochastic chemical transitions. This framework demonstrates how minimal mechanical and chemical components can capture kinesin motility.
+
+Run `simulation.py` to generate all plots. Refer `kinesin.pdf` for the detailed project report.
